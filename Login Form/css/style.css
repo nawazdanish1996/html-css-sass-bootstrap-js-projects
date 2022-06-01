@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/images/background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid {
+  margin-top: 20vh;
+}
+
+.container-fluid .row .col-md-4 {
+  padding: 40px;
+  color: white;
+  -webkit-box-shadow: 1px 5px 5px 5px white;
+          box-shadow: 1px 5px 5px 5px white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=style.css.map */
