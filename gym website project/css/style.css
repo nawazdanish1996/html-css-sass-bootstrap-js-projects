@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/images/background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#navbar .col-md-1 {
+  text-align: center;
+}
+
+#navbar .col-md-1 .fa-solid {
+  color: white;
+  font-size: 40px;
+}
+
+#navbar .col-md-8 nav ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#navbar .col-md-8 nav ul li {
+  list-style: none;
+}
+
+#navbar .col-md-8 nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 15px;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+#navbar .col-md-8 nav ul li a:focus {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+#navbar .col-md-8 nav ul li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+#navbar .col-md-3 #search {
+  color: black;
+  border-radius: 5px;
+}
+
+#navbar .col-md-3 #sbutton {
+  border-radius: 5px;
+}
+
+#banner .row #one {
+  color: white;
+  border-radius: 20px;
+}
+
+#banner .row #one h1 {
+  color: aquamarine;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer .row {
+  margin-top: 27vh;
+}
+
+#footer .row .col-md-12 {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

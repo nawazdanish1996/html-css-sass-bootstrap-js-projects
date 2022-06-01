@@ -1,0 +1,107 @@
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navbar{
+
+    .col-md-1{
+        // border: 1px solid white;
+        text-align: center;
+        .fa-solid{
+            color: white;
+            font-size: 40px;
+        }
+    }
+    .col-md-8{
+        // border: 1px solid white;
+
+        nav{
+
+            ul{
+                display: inline-flex;
+
+                li{
+                    list-style: none;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                        margin: 15px;
+                        font-size: 18px;
+                        font-family: cursive;
+
+                        &:focus{
+                            text-decoration: underline;
+                            text-underline-offset: 5px;
+                        }
+
+                        &:hover{
+                            text-decoration: underline;
+                            text-underline-offset: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .col-md-3{
+        // border: 1px solid white;
+
+        #search{
+            // background-color: grayscale($color: #000000);
+            color: black;
+            border-radius: 5px;
+        }
+
+        #sbutton{
+            border-radius: 5px;
+        }
+
+    }
+}
+
+
+#banner{
+
+    .row{
+
+        #one{
+            // border: 1px solid white;
+            color: white;
+            border-radius: 20px;
+            h1{
+                color: aquamarine;
+            }
+            
+        }
+        #two{
+            // border: 1px solid white;
+            
+        }
+        
+        #three{
+            // border: 1px solid white;
+
+        }
+    }
+}
+
+#footer{
+    text-align: center;
+    .row{
+        margin-top: 27vh;
+        .col-md-12{
+            background: rgba(0,0,0,.7);
+            // border: 1px solid white;
+            border-radius: 20px;
+            color: white;
+            padding: 10px;
+        }
+    }
+}
